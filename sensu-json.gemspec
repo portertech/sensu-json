@@ -19,13 +19,10 @@ Gem::Specification.new do |spec|
   if RUBY_PLATFORM =~ /java/
     spec.add_dependency("jrjackson", "0.4.0")
   else
-    spec.add_dependency("oj", "2.18.1")
+    spec.add_dependency("oj", "3.16.1")
   end
 
-  spec.add_development_dependency "bundler", "~> 1.6"
+  spec.add_development_dependency "bundler", "~> 2.4"
   spec.add_development_dependency "rake"
   spec.add_development_dependency "rspec"
-
-  spec.cert_chain    = ["certs/sensu.pem"]
-  spec.signing_key   = File.expand_path("~/.ssh/gem-sensu-private_key.pem") if $0 =~ /gem\z/
 end

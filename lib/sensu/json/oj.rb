@@ -1,4 +1,4 @@
-gem "oj", "2.18.1"
+gem "oj", "3.16.1"
 
 require "oj"
 
