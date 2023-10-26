@@ -2,10 +2,10 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "portertech-sensu-json"
-  spec.version       = "2.2.0"
+  spec.version       = "2.2.1"
   spec.platform      = RUBY_PLATFORM =~ /java/ ? Gem::Platform::JAVA : Gem::Platform::RUBY
   spec.authors       = ["Sean Porter"]
-  spec.email         = ["portertech@gmail.com", "engineering@sensu.io"]
+  spec.email         = ["portertech@gmail.com"]
   spec.summary       = "The Sensu JSON parser abstraction library"
   spec.description   = "The Sensu JSON parser abstraction library"
   spec.homepage      = "https://github.com/sensu/sensu-json"
